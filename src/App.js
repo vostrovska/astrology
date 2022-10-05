@@ -10,7 +10,7 @@ const showTextClick = (item) =>{
   item.showMore = !item.showMore
   setShowText(!showText)
 }
-const{imageOne, imageTwo,imageThree, descriptionOne, descriptionTwo, descriptionThree} = data[sign]
+const{image} = data[sign]
 const nextPicture =() => {
   setSign((sign => {
     sign++;
